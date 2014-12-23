@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+</head>
+<body ng-app="naod">
+<div class="container" ng-controller="MainController">
+    <div class="row">
+        <div class="md-col-12">
+            <h1>How to Knit a Sweater</h1>
+            <p>
+                <em>An interactive version of <a href="http://tutorials.knitpicks.com/wptutorials/category/video-classes/ninas-design-your-own-sweater-class/">Nina’s Design Your Own Sweater Class</a></em>
+            </p>
+            <p>
+                First you should watch the introduction of the series:
+                <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-introduction-part-1-of-3/">Part 1</a>,
+                <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-introduction-part-2-of-3/">Part 2</a> and
+                <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-introduction-part-3-of-3/">Part 3</a>
+            </p>
+            <h2>Lesson 1: Swatching and Taking Measurements</h2>
+            <em>
+                Original: <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-lesson-1-part-1-of-2/">Part 1</a>
+                and <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-lesson-1-part-2-of-2/">Part 2</a>
+            </em>
+            <h3>Knitting the Swatch</h3>
+            <p>
+                A swatch is simply a little square of knitting that allows you to identify what fabric is going to work best for your design. The swatch that you
+                identify as the right fabric will also provide you with invaluable information that you will need to ensure the correct fit for your sweater. If you
+                are on the fence about what sort of yarn you will be using to knit this sweater, you may swatch with several yarns to narrow the choice down.
+                Once you have identified the yarn you want to use, you will be swatching with a few needle sizes to decide which one yields the fabric that
+                will work best for your sweater’s purpose.
+            </p>
+            <p>
+                Knit your swatches over a reasonable number of stitches: for fingering weight yarn, at least 48; for sport, at least 42, for dk, at least 36, for
+                worsted, at least 30, for bulky, at least 24. This will ensure that your swatches are wide enough to measure your gauge accurately. Begin with
+                a few rows of garter stitch (knit every row) to prevent curling, and then work in stockinette stitch, keeping the first and last three stitches in
+                garter to prevent curling. (A little curling is fine but it’s easier to measure your gauge is the swatch lays relatively flat!) Work your swatch with
+                the recommended number of cast on stitches (or a few more!) until it is at least 5” long. Knit a few more rows in garter stitch and then bind
+                off using the stretchiest bind off you know. Some good ones are Elizabeth Zimmerman’s sewn bind off (described in many of her books), or
+                Jeny’s Surprisingly Stretchy Bind Off, available online at <a href="http://knitty.com/ISSUEfall09/FEATjssbo.php">http://knitty.com/ISSUEfall09/FEATjssbo.php</a>.
+            </p>
+            <p>
+                I recommend swatching with at least three different needle sizes. Use the one you usually prefer for the weight of yarn you are working with,
+                and then either one size smaller and one size larger, or the next two larger sizes if you are aiming for a loose, drapey fabric, or the next two
+                sizes smaller if you are aiming for a firm fabric. Different needle materials *may* affect your knitting. I like acrylic needles but some knitters
+                find that they don’t react well with certain fibers, so I switched needle types midway through each size section of my gauge swatch to see
+                which I liked working with the best. It is essential that you use a needle size and material that is comfortable for YOU to knit with. Different
+                fibers will affect the finished fabric as well. Since I’m using superwash, I anticipate needing to knit at a tighter gauge than non-superwash
+                so that the fabric will hold it’s shape. I would do the same if I were knitting with silk, modal, or alpaca. If I were knitting with a cotton/
+                microfiber blend, non-superwash wool or a non-superwash wool blend (where the percentage of non superwash wool is greater than 50) I
+                would use a larger needle.
+            </p>
+            <p>
+                I use eyelets or purl stitches in each section to indicate what needle size I used to knit that section. I’ve made the mistake of thinking, “oh, I’ll
+                remember what needle I used” and then picked up the swatch a few weeks or months later with no certainty of the needle size--too many
+                times now. So either mark them on your swatch or write them in a notebook or on your pattern so you’ll remember.
+            </p>
+            <p>
+                Always, always, ALWYAYS!!! wash your swatch. Follow the instructions on the label that the yarn came in and wash the swatch exactly as
+                you intend to wash the garment. So, if you’re working in cotton, intending to machine wash and dry your sweater, make sure to machine wash
+                and dry your swatch, with a load of laundry, on the same settings you will use for the sweater. If you are using alpaca, hand wash and lay the
+                swatch out to dry flat, just as you will wash and dry the garment. If you are working a lace sweater, pin out the swatch to give it an aggressive
+                blocking just like you will need to do with the sweater when you wash it. If you neglect these steps, you run a serious risk of your garment
+                only fitting correctly until you wash it! Fibers are known to relax or shrink due to washing and drying, so it is crucial that you wait until the
+                swatch has been washed and dried before you attempt to measure the gauge.
+            </p>
+            <p>
+                If you are using a fiber that tends to stretch—like alpaca, silk, or superwash wool, it can be a good idea to hang your swatch with a little
+                weight on it for a few days to simulate how the fabric of your finished piece will stretch while wearing.
+            </p>
+            <h4>A note on cotton and cotton blends:</h4>
+            <p>
+                If these yarns are machine washable, bear in mind that your fabric will shrink a bit on the first few washes. It is essential that you use a needle
+                size that is comfortable for you to knit with, and to wash your swatch the same way you intend to wash your garment before you measure
+                your gauge. If you knit your cotton tightly and then the stitches shrink even more on your first wash, you will end up with an armour-like
+                garment and potential wrist pain from wrestling all those little stitches.
+            </p>
+            <p>
+                Once you are done swatching, washing, and drying, you will choose the fabric that will be best for your sweater. This is simply the swatch that
+                feels the best and fits the best with the purpose for your sweater that you identified in the introductory lesson. When you have chosen the
+                swatch, make a note of which needle you used to knit it; this is the needle you will be using to knit your sweater. Make a note of it on these worksheets:
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-col-12">
+            <h3>Measuring Gauge</h3>
+            <form class="form-inline">
+                <fieldset class="col-md-6">
+                    <legend>Stitches per inch</legend>
+                    <p>
+                        Using a ruler or a gauge measuring tool, count the number of stitches in the same horizontal ROW that make up 4 inches. There can be
+                        fractional stitches (like a half or quarter stitch) included in this number. Fill in your result below.
+                    </p>
+                    <p><gauge-input name="x"></gauge-input></p>
+                    <p>Now we divide this number by 4 to get your STITCHES per inch (it is fine if there is a decimal at the end of this number as well!)</p>
+                    <p><gauge name="x"></gauge> / 4 = <expression expr="s"></expression> sts per inch (S)</p>
+                </fieldset>
+                <fieldset class="col-md-6">
+                    <legend>Rows per inch</legend>
+                    <p>
+                        Now, rotate your measuring tool and count the number of stitches in the same vertical COLUMN that make up 4 inches—in other words,
+                        the number of rows. This number can be fractional as well.
+                    </p>
+                    <p>
+                        <gauge-input name="y"></gauge-input>
+                    </p>
+                    <p>
+                    Divide this number by 4 to get your ROWS per inch (it is fine if there is a decimal at the end of this number as well!)<br>
+                    </p>
+                    <p>
+                        <gauge name="y"></gauge> / 4 = <expression expr="r"></expression> Rows per inch (R)
+                    </p>
+                </fieldset>
+                <p>The values S ( <expression name="s"></expression> ) and R ( <expression name="r"></expression> ) are your GAUGE and will be used for all further calculations in this pattern.</p>
+            </form>
+            <h3>Planning the Dimensions of your Sweater</h3>
+            <p>
+                The measurements you take for this portion of the lesson will be from your favorite sweater. It might be hand-knit, or it might be storebought,
+                or, if you’ve never had a sweater you love, it could be a sweatshirt or lighter pullover. It should be a top that you love the fit of, and
+                that makes you feel great. If your favorite sweater is no longer with you (since the best clothes tend to die too young) or you have truly never
+                had a top you really liked, it’s ok—follow the schematic to measure your own body, estimating how you would like the gament to fit, to
+                calculate your key numbers.
+            </p>
+            <p>
+                Lay your garment out flat and take the measurements indicated on the schematic. If there are any adjustments you care to make to your
+                garment, such as lengthening the sleeves or shortening the torso, make them to these numbers. If you are taking measurements off of your
+                own body, follow the schematic and measure over any garments you intend to wear under the sweater, such as a bra and a t-shirt.
+            </p>
+            <p>
+                Taking time to experiment with swatching will be worth it in the long run—it is what designing is all about! Enjoy this honeymoon period
+                with your chosen yarns, because next week you will be embarking on a long-term relationship with them as you cast-on your sweater!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6" id="plan">
+            <img src="img/plan.jpg" style="width: 100%">
+        </div>
+        <div class="col-md-6">
+            <form class="form-inline">
+                <measurement-input name="a"></measurement-input>
+                <measurement-input name="b"></measurement-input>
+                <measurement-input name="c"></measurement-input>
+                <measurement-input name="d"></measurement-input>
+                <measurement-input name="e"></measurement-input>
+                <measurement-input name="f"></measurement-input>
+                <measurement-input name="g"></measurement-input>
+                <measurement-input name="h"></measurement-input>
+                <measurement-input name="j"></measurement-input>
+                <measurement-input name="k"></measurement-input>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Lesson 2: Casting on and Working the Hem</h2>
+            <p><em>Original <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-lesson-2/">here</a></em></p>
+            <p>
+                We will begin with the body of our sweaters, which begin at the hem and are then worked up to the armpits. This
+                week will cover the considerations of hems, and what stitches and treatments work for the hem that you want. The
+                hem is the bottom border of the sweater. We will also begin with an easy calculation, so that you may cast on and
+                work your hem in time for next week’s lesson.
+            </p>
+            <h3>Choosing your Hem Pattern</h3>
+            <p>
+                Stockinette stitch (and stockinette-based stitch patterns where the wrong side of the fabric is purled) curls naturally,
+                which is a result of the knit side of the stitch actually being smaller than the purl side. So unless you want a rolled
+                edge on your sweater (and some people, I’m sure, do!) you’ll need to work the first few inches of your sweater in a
+                stitch pattern that is composed fairly equally of knit and purl stitches. Some very popular and easy hem treatments are
+                Garter stitch, Seed stitch, Moss stich, and any type of ribbing. Turned hems are also an option--more on those later!
+            </p>
+            <p>
+                If you don’t have a knit/purl pattern in mind already, then you may want to consult a stitch dictionary. Look for “knit/
+                purl” patterns, or any stitch that appeals to you that combines knit and purl stitches. Vertical motifs are the ones most
+                commonly used for hems. Swatch the patterns you are considering, if you like, so that you can get a sense of how they
+                work with your chosen yarn and how they interact with the stockinette fabric you will use for the rest of the sweater.
+                It may be necessary to use another needle size to make the stitch gauge of your hem match that of your sweater. If you
+                are knitting a basic stitch, like two-by-two ribbing, however, further swatching is probably not necessary.
+            </p>
+            <p>
+                Many knitting patterns direct you to cast on with a needle one or two sizes smaller than the one you intend to use
+                for the bulk of the pattern. This is because tighter cuffs and waistband make a warmer sweater, with fewer gaps to let
+                chill air in. If this sounds like what you want, then you should feel free to use a smaller needle. The other advantage
+                of casting on with a smaller needle is that the tighter stitches are more even looking, forming a neater hem. Also,
+                some stitches in which the knits and purls do not stack in neat columns, such as seed stitch and garter, are wider than
+                stockinette, and using a smaller needle on these sections will make them match the width of the rest of the sweater
+                better. That said, I did not bother with this and just cast on with the needle size I plan to use for the whole piece.
+            </p>
+            <p>
+                Choose a hem treatment that you like, and you’re almost ready to go!
+            </p>
+            <h3>Identifying the Repeat</h3>
+            <p>
+                I chose a k3, p1, k1, p1 ribbing because it looks a little fancier than a plain ribbing, and because it will transform easily
+                into a one-by-one ribbing which I intend to use later in the piece. Whatever border treatment you decide to use, you’ll
+                need to identify the number of stitches in the repeat.
+            </p>
+            <p>
+                My chosen pattern has a 6-stitch repeat. The repeat is the number of stitches before the pattern repeats again; so a
+                k2, p2 rib has a 4 stitch repeat, and a k1, p1 seed stitch has a 2 stitch repeat. Garter stitch can be worked over any
+                number of stitches and has no repeat00it will work for any stitch count. You probably shouldn’t go higher than an 8
+                stitch repeat, for convenience…but if you are in love with a 12 or 20 stitch pattern then it is definitely possible (with
+                some resourcefulness) to make it work! Once you have identified your repeat, you know your gauge and your desired
+                measurements (which you calculated at the end of the last lesson!); you are ready to cast on!
+            </p>
+            <p>
+                <form class="form-inline">
+                    <gauge-input name="repeat"></gauge-input>
+                </form>
+            </p>
+            <h3>First Steps</h3>
+            <p>
+                We’ll begin with the torso, or body of your sweater. To calculate your number of cast-on sts, refer to your gauge and 2
+                to the measurement marked <measurement name="a"></measurement> on your schematic.
+            </p>
+            <p>
+                Multiply A by 2 to get the circumference all the way around the hem of your sweater
+            </p>
+            <p>
+                A × 2 = <expression name="a2"></expression><br>
+                Now, multiply this number by S = <expression name="a2s"></expression>
+            </p>
+            <p>
+                In my Case, S equals 4.75 stitches to the inch, and my desired measurement for the hem of my sweater is 34 inches.
+                So I’ll multiply 34 by 4.75, which equals 161.5 stitches.
+            </p>
+            <p>
+                First of all, it is not possible to cast on fractional stitches, so I’ll have to round this number up or down to a whole
+                number of stitches: <expression name="a2sr"></expression>
+            </p>
+            <p>
+                Second of all, I need to make sure that my cast on number is divisible by the REPEAT of my chosen border
+                treatment. Since the stitch pattern I’m using has a repeat of 6 stitches, I need the number of stitches I cast on to
+                evenly divide by 6. 162/6 = 27 so I will cast on 162 sts. Make sure to test your number carefully—if you don’t you
+                will not end up with a full repeat of your stitch pattern at the end of your round.
+            </p>
+            <p>
+                The number you calculated above, <expression name="a2sr"></expression> rounded to the nearest whole number
+                that divides by your hem stitch <measurement name="repeat"></measurement> repeat, is
+                your cast on number = <expression name="cast"></expression>
+            </p>
+            <h3>Turned Hems</h3>
+            <p>
+                A turned hem is a tailored hem which blends in completely with the fabric of the sweater. One the right side it is
+                smooth stockinette, but unlike a plain stockinette hem, it does not curl! This is achieved by a hem facing that is
+                knitted and sewn to the inside of the sweater. If you are working a turned hem, begin in stockinette; you will return to
+                the CO edge at the end of the sweater to knit the inside hem facing.
+            </p>
+            <h3>Knitting the Hems</h3>
+            <p>
+                When you know what needle size you’re using for the hem, CO the number of stitches you calculated onto a circular
+                needle many inches shorter in circumference than your intended measurement, and place a marker for the beginning
+                of the round. I also placed a marker for the midpoint of the round, which will not be useful until later, so you are
+                under no obligation to do so yet. Now, begin knitting in your chosen hem stitch!
+            </p>
+            <p>
+                Work in your chosen stitch pattern for a few inches. You may choose this number arbitrarily, or refer to your sample
+                garment for the length. I’ll be going for 4 inches, because I like the look of deep ribbing, but many find this a little
+                long and work only for 2 or 3 inches. It is up to you! Refer to your favorite sweater or any sketches you have made to
+                figure out the hem length that will work best for YOU.
+            </p>
+            <p>
+                When you are done with the hem length, you will switch to stockinette. In the next lesson, we’ll go over how to work
+                waist and bust shaping into the torso; but if you want a sweater with a straight body, you can skip that class and just
+                work in stockinette until your piece is as long as the measurement labeled <measurement name="e"></measurement> on your schematic. Check your favorite
+                sweater or sketch to see if you want waist shaping—if the body is a straight tube then you can skip it, but if there are
+                any curves to accommodate bust or hips, then you will want to work some shaping.
+            </p>
+            <p>
+                If you do want to work waist shaping, stop after your hem is complete. In the next lesson, we will be discussing
+                shaping in the body of the sweater, and I promise to walk you through the math as painlessly as I can.
+            </p>
+            <h2>Lesson 3: Shaping the Torso</h2>
+            <p><em>
+                Original:
+                <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-lesson-3-part-1-of-2/">Part 1</a>, and
+                <a href="http://tutorials.knitpicks.com/wptutorials/how-to-knit-a-sweater-lesson-3-part-2-of-2/">Part 2</a>
+            </em></p>
+            <p>
+                Shaping refers to the decreases and increases knit into the body of a sweater that cause it to deviate from the plain
+                straight lines of an unshaped sweater. In this section of our class, you will refer to your sample sweater and your
+                sketch to determine the kind of shaping you will knit. If there is no change in the width of the body in your sample
+                or fantasy sweater (that is, the body is just a straight tube) then you do not need to worry about shaping, just knit on
+                until you have enough rows (including the hem already knit) to make the measurement <measurement name="e"></measurement> on your schematic.
+            </p>
+            <p>
+                The instructions in this lesson address simple waist and bust shaping. If your sample or fantasy sweater is curved in
+                the body like the shape of a real human torso, then you will want waist/bust shaping. Other shapes can be acheived by
+                adapting these instructions--the last page of this lesson contains a discussion of these techniques.
+            </p>
+            <p>
+                In order to calculate the waist shaping that will work for YOUR sweater, you will need these key measurements from
+                your schematic (provided in lesson 1.)
+            </p>
+            <p>
+                First, multiply <measurement name="a"></measurement>, <measurement name="b"></measurement>, and <measurement name="c"></measurement>
+                by 2 to get the circumferences around these parts of the torso:
+            </p>
+            <p>
+                2A = <expression name="a2"></expression><br>
+                2B = <expression name="b2"></expression><br>
+                2C = <expression name="c2"></expression>
+            </p>
+            <p>
+                Now, subtract 2B from 2A, and from 2C:
+            </p>
+            <p>
+                2A – 2B = <expression name="a2_b2"></expression> inches to DECREASE from hem to waist.
+                2C – 2B = <expression name="c2_b2"></expression> inches to INCREASE from waist to armpit.
+            </p>
+            <p>
+                Now, convert these INCHES measurements to STITCHES by multiplying the last 2 numbers above by S, your
+                stitch gauge (as calculated in lesson 1), and then round to resulting numbers (which may have decimals as well!) so
+                they are divisible by 4.
+            </p>
+            <p>
+                <expression name="stitches_decrease_hem_to_waist"></expression> stitches to DECREASE from hem to waist.<br>
+                <expression name="stitches_increase_hem_to_waist"></expression> stitches to INCREASE from hem to waist.
+            </p>
+            <p>
+                We will be shaping the sweater with decrease and increase rounds that eliminate or add 4 stitches per round. That is
+                why you rounded the above numbers so they are divisible by four! Now, divide the above numbers by 4, to find the
+                NUMBER OF DECREASE/INCREASE rounds needed for your shaping:
+            </p>
+            <p>
+                <expression name="decrease_rounds_hem_to_waist"></expression> DECREASE rounds between hem and waist (1)<br>
+                <expression name="increase_rounds_hem_to_waist"></expression> INCREASE rounds between waist and armpit (2)
+            </p>
+            <p>
+                We’ll leave these numbers for a moment and now take a look at our vertical measurements from the schematic. We’ll
+                begin with the decrease section, for which you will only need the numbers labeled (1) above. The increase section will
+                be worked later in a similar way, and will use the numbers labeled (2).
+            </p>
+            <p>
+                You have already worked a certain number of inches of length into you hem, so subtract this number from
+                <measurement name="d"></measurement> (from
+                your schematic) to find the distance you still need to knit to reach the waist:
+            </p>
+            <p>
+                <measurement name="d"></measurement>
+                – <input ng-model="lesson3_hem.value" class="form-control" style="width:5em; display: inline" type="number">
+                = <expression name="d_hem"></expression> inches
+            </p>
+            <p>
+                Now, multiply this number by R to see how many rows you have until you reach the waist:
+            </p>
+            <p>
+                Inches × <measurement name="r"></measurement> = <expression name="rows_to_waist"></expression>
+            </p>
+            <p>
+                Now, round this number to one that is divisible by (1), which you calculated above.<br>
+                Rounds until waist = <expression name="rounds_to_waist"></expression>
+            </p>
+            <p>
+                We will be working the shaping as follows: you will work a decrease round (I’ll explain that in a moment!) and then
+                work a certain number of plain rounds, and then repeat, until you have reached the waist and decreased away all the
+                stitches you needed to (as calculated above.) The decrease round plus the number of round before the next decrease
+                can be calculated by dividing this last number by (1) = <expression name="lesson3_3"></expression> (3)
+            </p>
+            <p>
+                Remember that the decrease round counts as one round, so subtract 1 from (3) to find the number of plain rounds
+                between the decrease rounds:<br>
+                (3) – 1 = <expression name="plain_rounds_between_decrease"></expression> plain rounds between decrease rounds
+            </p>
+            <p>
+                Well, that is enough maths for me! Let’s work through this section before moving on to the increase section. If you
+                like to get every bit of math out of the way, you can skip ahead and return to this later. But I am anxious to get back to
+                knitting, so I’ll knit this first and calculate my increase section later!
+            </p>
+            <p>
+                A ROW COUNTER can be indispensible at this point in your project, because you will need to keep track of which
+                round you are on, to keep the decrease rounds evenly spaced. An experienced knitted may be able to read her work
+                well enough that a row counter is not necessary, but I find that a row counter makes life much easier! You may also
+                note your number of rounds with a tally system on paper, which works just as well.
+            </p>
+            <p>
+                First, you will work a decrease round as follows. You have a marker at the beginning of your round (this is where I put
+                my row counter) and one at the center of the round. The first half of the stitches on your circular needle is the front
+                of the sweater. The second half of the stitches is the back of your sweater. The markers mark the side seams. We are
+                going to place our decreases on either side of the side seams. In pattern talk, this means your decrease round is worked
+                like this, starting at the beginning of the round:
+            </p>
+            <p>
+                K1, ssk, k to 3 sts before marker, k2tog, k1. Slip marker and repeat.
+            </p>
+            <p>
+                4 stitches have been decreased!
+            </p>
+            <p>
+                Now, work as many plain rounds as you calculated in the final step above.
+            </p>
+            <p>
+                You will repeat these steps: Decrease round, plain rounds <expression name="plain_rounds_between_decrease"></expression> times.
+                <expression name="plain_rounds_between_decrease"></expression> refers to the number of decrease rounds that
+                you calculated above. Because we used the math above to space the decrease rounds evenly over the number of rounds
+                needed to reach the waist, we now have knit the torso of the sweater as far as the waist, and have shaped it so that it
+                will fit correctly over the waist and hips!
+            </p>
+            <p>
+                We will now use the same process to calculate the increase rounds that will shape the body of the sweater between the
+                waist and the armpits.
+            </p>
+            <p>
+                Return to your vertical measurements. Subtract <measurement name="d"></measurement>
+                from <measurement name="e"></measurement> to find the length of the garment between waist and armpit
+            </p>
+            <p>
+                E – D = <expression name="e_d"></expression> inches from waist to armpit.<br>
+                And now multiply this number by R to find the number of rounds from waist to armpit:
+            </p>
+            <p>
+                Inches × R = <expression name="rounds_waist_to_armpit_raw"></expression>
+            </p>
+            <p>
+                Now, round this number to one that is divisible by (2), which you calculated above.<br>
+                Rounds from waist to armpit = <expression name="rounds_waist_to_armpit"></expression>
+            </p>
+            <p>
+                The increase section will be worked exactly like the decrease section: an increase round that adds 4 stitches will be
+                followed by a certain number of plain rounds, and then the whole process will be repeated (2) times. (2) is the number
+                of increase rounds you calculated above.
+            </p>
+            <p>
+                The increase round plus the number of round before the next decrease can be calculated by dividing this last number
+                (rounds from waist to armpit) by (2) = <expression name="lesson3_4"></expression> (4)
+            </p>
+            <p>
+                Remember that the increase round counts as one round, so subtract 1 from (4) to find the number of plain rounds
+                between the increase rounds:<br>
+                (4) – 1 = <expression name="plain_rounds_between_increase"></expression> plain rounds between increase rounds.
+            </p>
+            <p>
+                Now we are ready to finish the torso of the sweater!
+            </p>
+            <p>
+                Once you have completed the decrease section above (and this includes knitting the required number of plain rows at
+                the end of the lat repeat!), you will work the increase section, as follows. Work one increase round as follows, starting
+                from the beginning of the round:
+            </p>
+            <p>
+                (Note: I use a backward loop over the right hand needle as my M1 increase because I find it to be the most invisible.
+                One of the most popular increases these days if KFB, which I do not recommend, because it will throw off your stitch
+                counts and is very visible on the right side of the work.
+            </p>
+            <p>
+                K2, m1, k to 2 sts before marker, m1, k2. Slip marker and repeat. 4 sts increased.
+            </p>
+            <p>
+                Now work the number of plain rounds between increase rounds that you calculated above.
+            </p>
+            <p>
+                You will repeat these steps: Increase round, plain rounds <expression name="increase_rounds_hem_to_waist"></expression> times.
+                <expression name="increase_rounds_hem_to_waist"></expression> refers to the number of increase rounds that
+                you calculated above. Because we used the math above to space the increase rounds evenly over the number of rounds
+                from waist to armpits, we now have knit the torso of the sweater as far as the armpits, and have shaped it so that it
+                will fit correctly over the waist and chest!
+            </p>
+            <h3>Further Modifications</h3>
+            <p>
+                As you become more proficient at shaping your sweaters, you can modify the above instructions to achieve a variety of
+                effects. The adventurous knitter may wish to try some of them right now!
+            </p>
+            <p>
+                Instead of placing the lines of decreases and increases at the side seams, you may move then closer to the center of
+                the sweater to make mock princes seams that are visible on the front and the back of the body. You can change the
+                directions of the increases and decreases when you do this (switch ssk for k2tog and vice-versa) for a different effect as
+                well.
+            </p>
+            <p>
+                You may modify your D and E numbers to allow for longer stretches of plain knitting, either to accommodate a long
+                waist, or to finish your increases well below the armpits (which can work better for larger busts) and work plain for
+                the remainder of the sweater’s length.
+            </p>
+            <p>
+                You may also shape the bust with short rows—this works well to accommodate larger busts and adds extra length to
+                the front of the sweater, so that the hem stays even. If you would like to try some short rows, you will need to identify
+                the largest part of your bust, and work them, when you reach that height in the torso. Typically this is about halfway
+                through in increase section. When you reach this point, put your increases on hold while you work the short rows;
+                you will resume working the increases when they are done.
+            </p>
+            <p>
+                The short rows will be worked across the front of the sweater (the first half of your stitches) only. The number of
+                short rows worked is up to you—work more if you are using a thinner yarn, fewer if you are using a heavier yarn.
+                To work the short rows, knit to one stitch before the first marker, then wrap and turn. Purl back to one stitch before
+                the beginning of the round marker, then wrap and turn. Knit to a few stitches (3-6, more for a light yarn and less for
+                a heavy one) before the first wrapped stitch, wrap and turn again, then purl back until you are the same number of
+                stitches before the wrapped sts, and wrap and turn again. Repeat this process, always wrapping the stitch the same
+                number of sts before the last one, until you have 3-6 wrapped stitches on each side of the torso (more for a large bust,
+                fewer for a smaller one), ending after a purl row. You do not want the wrapped stitches to reach all the way across the
+                torso, rather, you want the bunched up at either side, like bust darts on a tailored jacket.
+            </p>
+            <p>
+                Now, knit across until you come to a wrapped stitch. Work this stitch together with its wrap, and continue knitting
+                until you reach the next wrapped stitch. Wrap and turn again. Now purl until you reach a wrapped stitch at the other
+                end of the row. Work this stitch together with its wrap, and continue in purl until you reach the next wrapped stitch.
+                Wrap and turn again. Repeat this process until you have knit the final wrapped stitch on a knit row. One wrapped
+                stitch near the beginning of the round should remain unworked. Resume knitting in the round, and work this last
+                wrapped stitch together with its wraps when you come to it. Resume your increases when you return to working in
+                the round as well.
+            </p>
+            <p>
+                If you feel like trying any of these modifications on your current sweater project, go right ahead! Or, feel free to file
+                them away for future reference—when you have more experience with custom sweater knitting, you will find it much
+                easier to implement them.
+            </p>
+            <p>
+                When you have finished all the steps in this lesson (which may take more than one week, as it will for me!) you are
+                finished with the torso of your sweater! We’ll be letting it rest while we work the sleeves, which are coming at you for
+                next week’s lesson. Give your self a big pat on the back when you have finished this step—you are well on your way to
+                having a finished sweater!
+            </p>
+            <h2></h2>
+        </div>
+    </div>
+</div>
+</body>
+</html>
